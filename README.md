@@ -4,4 +4,4 @@
   A text message is thus translated into a string of bits. By exploiting the fact tht not all characters appear with the same frequency in the text,
   We can encode rarely used characters with long codes and frequently used ones with short codes.</p> 
  
-<p>The goal of this project is to build a program that reads a textfile, counts the frequency of each character, creates a binary heap with the frequencies and then uses that heap to create a HuffmanTree. This project is made up of 4 files eaach with multiple classes and methods.</p> 
+<p>The goal of this project is to build a program that reads a textfile, counts the frequency of each character, creates a binary heap with the frequencies and then uses that heap to create a HuffmanTree. We then iterate over the tree to get the encoded message. This project also decodes the encoded message so that I could compare it to the original text to check my work. This project is made up of 4 files eaach with multiple classes and methods. The main method is located in the HuffmanConverter file. </p> 
